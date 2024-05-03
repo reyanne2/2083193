@@ -1,0 +1,10 @@
+let phrase = "The strength oF JavaScript is that you can do anything. The weakness is that you will."
+console.log("la phrase entiere : ", phrase)
+console.log("la longueur de la chaine de caractere est : ", phrase.length)
+console.log("la position du mot JavaScript est :" , phrase.search("JavaScript"))
+console.log("la position du dernier 'is' est : ", phrase.lastIndexOf("is"))
+console.log("la derniere phrase seulement: ", phrase.slice(phrase.indexOf(".")+2, phrase.length))
+console.log("les dix caracteres a partir du 17 ieme caractere: ", phrase.slice(16, 27))
+console.log("combien de mot dans la phrase: ", phrase.split(" ").length)
+console.log("le 61 ieme caractere: ", phrase.at(61))
+console.log("Remplacer 'you' par 'I' dans toute la phrase: ", phrase.replace (/you/g, "I"))
